@@ -1,4 +1,4 @@
 ul{
     display: inline;
-    align-self: auto;
+    list-style: none;
 }
