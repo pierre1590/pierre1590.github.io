@@ -7,10 +7,10 @@ li:hover{
     color: rgb(73, 226, 27);
 }
 
-li:link{
-    color: blue;
+li:active{
+    color: rgb(8, 8, 85);
 }
 
 li :visited{
-    color: crimson;
+    color: rgb(243, 0, 49);
 }
