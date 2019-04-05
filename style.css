@@ -2,3 +2,15 @@ ul{
     display: inline;
     list-style: none;
 }
+
+li:hover{
+    color: brown;
+}
+
+li:link{
+    color: blue;
+}
+
+li :visited{
+    color: crimson;
+}
