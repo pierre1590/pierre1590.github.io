@@ -3,14 +3,7 @@ ul{
     list-style: none;
 }
 
-li:hover{
-    color: rgb(73, 226, 27);
-}
-
-li:active{
-    color: rgb(8, 8, 85);
-}
-
-li :visited{
-    color: rgb(243, 0, 49);
+nav{
+    background-color: beige;
+    text-align: left;
 }
