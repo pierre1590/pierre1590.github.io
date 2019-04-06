@@ -78,7 +78,7 @@ html {
   
   /* Header and Footer*/
   header, footer {
-    background-image:-webkit-linear-gradient(left,rgb(228, 101, 84),#316ddb);
+    background-image:-webkit-linear-gradient(left,rgb(231, 166, 158),#316ddb);
     color: #EDF2F4;
   }
   /* header */
@@ -164,7 +164,7 @@ html {
   /* Skills
   ------------------------*/
   .skills{
-      background-color: rgb(159, 240, 213);
+      background-image:linear-gradient(left to bottom,#f5f593,rgba(131, 243, 228, 0.89))
       background-size: cover;
   }
 
