@@ -79,8 +79,8 @@ html {
   /* Header and Footer*/
   header, footer {
     background-image:
-    linear-gradient(left to bottom,rgb(231, 166, 158),#316ddb),
-    -webkit-linear-gradient(left to bottom,rgb(231, 166, 158),#316ddb);
+    linear-gradient(left to bottom,rgb(240, 76, 54),#316ddb),
+    -webkit-linear-gradient(left to bottom,rgb(240, 76, 54),#316ddb);
     color: #EDF2F4;
   }
   /* header */
@@ -140,8 +140,8 @@ html {
   -------------------------*/
   .projects {
     background-image:
-    repeating-linear-gradient(left to top, rgb(243, 243, 103), #22ffa3),
-    -webkit-repeating-linear-gradient(left to top, rgb(243, 243, 103), #22ffa3);
+    linear-gradient(left to top, rgb(243, 243, 103), #22ffa3),
+    -webkit-linear-gradient(left to top, rgb(243, 243, 103), #22ffa3);
     background-size: cover;
   }
   p + h3 {
