@@ -78,7 +78,9 @@ html {
   
   /* Header and Footer*/
   header, footer {
-    background-image:-webkit-linear-gradient(left,rgb(231, 166, 158),#316ddb);
+    background-image:
+    linear-gradient(left to bottom,rgb(231, 166, 158),#316ddb),
+    -webkit-linear-gradient(left to bottom,rgb(231, 166, 158),#316ddb);
     color: #EDF2F4;
   }
   /* header */
@@ -137,7 +139,9 @@ html {
   /* Projects
   -------------------------*/
   .projects {
-    background-color: rgb(243, 243, 103);
+    background-image:
+    repeating-linear-gradient(left to top, rgb(243, 243, 103), #22ffa3),
+    -webkit-repeating-linear-gradient(left to top, rgb(243, 243, 103), #22ffa3);
     background-size: cover;
   }
   p + h3 {
@@ -164,22 +168,16 @@ html {
   /* Skills
   ------------------------*/
   .skills{
-      background-image:linear-gradient(left to bottom,#f5f593,rgba(131, 243, 228, 0.89))
+      background-image:
+      linear-gradient(left to bottom,#f5f593,rgba(131, 243, 228, 0.89)),
+      -webkit-linear-gradient(left to bottom,#f5f593,rgba(131, 243, 228, 0.89));
       background-size: cover;
   }
 
   
   /* Progress bar
   ------------------------*/
-  .progression{
-      width: 5em;
-      height: 3em;
-    
-  }
-
-
-
-
+  
   progress[value]::-webkit-progress-value {
     background-image:
          -webkit-linear-gradient(-45deg, 
@@ -193,6 +191,8 @@ html {
       border-radius: 2px; 
       background-size: 35px 20px, 100% 100%, 100% 100%;
   }
+
+
   /* Media Queries
   -------------------------*/
   @media (min-width: 900px) {
