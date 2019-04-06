@@ -78,7 +78,7 @@ html {
   
   /* Header and Footer*/
   header, footer {
-    background-image:-webkit-linear-gradient(left,rgb(245, 27, 11),#084dcc);
+    background-image:-webkit-linear-gradient(left,rgb(228, 101, 84),#316ddb);
     color: #EDF2F4;
   }
   /* header */
