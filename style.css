@@ -1,3 +1,33 @@
+.content-wrap {
+    max-width: 950px;
+    margin: 0 auto;
+    padding: 60px 30px;
+    overflow: hidden;
+    text-align: center;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
 
+div {
+    display: block;
+}
+footer {
+    text-align: center;
+}
+header, footer {
+    background: #2E2C2C;
+    color: #EDF2F4;
+}
+body {
+    font-family: 'Titillium Web', sans-serif;
+    margin: 0;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
 
 
