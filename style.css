@@ -171,7 +171,15 @@ html {
   
   /* Progress bar
   ------------------------*/
-  
+  .progression{
+      width: 5em;
+      height: 3em;
+    
+  }
+
+
+
+
   progress[value]::-webkit-progress-value {
     background-image:
          -webkit-linear-gradient(-45deg, 
