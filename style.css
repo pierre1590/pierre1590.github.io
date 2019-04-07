@@ -183,6 +183,8 @@ html {
 
     .autofit{
     grid-template-columns: repeat(auto-fit,minmax(10px,0.5fr));
+    height: 75px;
+    width: 110px;
   }
 
   
