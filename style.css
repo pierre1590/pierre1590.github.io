@@ -79,7 +79,7 @@ html {
   /* Header and Footer*/
   header, footer {
     background-image:
-    -webkit-linear-gradient(left,rgb(240, 76, 54),#316ddb);
+    -webkit-linear-gradient(left,rgb(241, 89, 89),rgb(60, 60, 236));
     color: #EDF2F4;
   }
   /* header */
@@ -139,7 +139,7 @@ html {
   -------------------------*/
   .projects {
     background-image:
-    -webkit-linear-gradient(left, rgb(243, 243, 103), #22ffa3);
+    -webkit-linear-gradient(right, rgb(243, 243, 103), #22ffa3);
     background-size: cover;
   }
   p + h3 {
