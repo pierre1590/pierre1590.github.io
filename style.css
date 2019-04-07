@@ -188,13 +188,7 @@ html {
     grid-template-columns: repeat(auto-fit,minmax(10px,0.5fr));  
   }
 
-  /* Image dimension
-  ------------------------*/
-
-  img{
-    width: 200px;
-    height: 120px;
-  }
+  
 
 
   /* Progress bar
