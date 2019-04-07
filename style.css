@@ -168,14 +168,18 @@ html {
   .skills{
       background-image:
       -webkit-linear-gradient(left,#f5f593,rgba(131, 243, 228, 0.89));
-      background-size: cover;
-      
+          
   }
 
     .skill{
       display:grid;
-      text-align: center;
+      align-items: start;
+      
     }
+
+  p{ 
+    text-align: center;
+  }
 
     .autofit{
     grid-template-columns: repeat(auto-fit,minmax(15px,1fr));
