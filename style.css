@@ -175,6 +175,7 @@ html {
 
     .skill{
       display:grid;
+      text-align: center;
     }
 
     .autofit{
