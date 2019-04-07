@@ -167,7 +167,6 @@ html {
   ------------------------*/
   .skills{
       background-image:
-      linear-gradient(left,#f5f593,rgba(131, 243, 228, 0.89)),
       -webkit-linear-gradient(left,#f5f593,rgba(131, 243, 228, 0.89));
       background-size: cover;
       
