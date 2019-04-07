@@ -174,8 +174,8 @@ html {
     .skill{
       display:grid;
       grid-template:  10rem 10rem / 25rem 25 rem 25rem;
-      column-gap: 1rem;
-      row-gap: 1rem;
+      column-gap: 2rem;
+      row-gap: 2rem;
       align-items: start;
       
     }
@@ -192,8 +192,8 @@ html {
   ------------------------*/
 
   img{
-    width: 120px;
-    height: 75px;
+    width: 200px;
+    height: 120px;
   }
 
 
