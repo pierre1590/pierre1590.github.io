@@ -166,8 +166,8 @@ html {
   /* Skills
   ------------------------*/
   .skills{
-      background-image:
-      -webkit-linear-gradient(left,#f5f593,rgba(131, 243, 228, 0.89));        
+      background-image:url(/public/img/skills.jpg);
+      background-size: cover;        
   }
 
     
