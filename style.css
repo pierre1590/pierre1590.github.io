@@ -170,10 +170,27 @@ html {
       background-size: cover;        
   }
   
-  
+  .list-inline{
+    padding-left: 0;
+    list-style: none;
+  }
     
+  .list-icons{
+    font-size: 3rem;
+  }
 
+  li{
+    text-align: match-parent,
+    -webkit-match-parent;
+  }
   
+  .list.inline-item:not(:last-child){
+    margin-right:.5rem;
+  }
+
+  .list-inline-item{
+    display: inline-block;
+  }
 
 
 
