@@ -175,7 +175,9 @@ html {
     list-style: none;
   }
 
-  
+  .list-icons{
+    font-size: 3rem;
+  }
   
   .list-inline-item{
     display:inline-block;
