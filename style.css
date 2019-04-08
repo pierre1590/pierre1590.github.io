@@ -176,7 +176,7 @@ html {
   }
     
   .list-icons{
-    font-size: 3rem;
+    font-size: 5rem;
   }
 
   li{
@@ -185,7 +185,7 @@ html {
   }
   
   .list.inline-item:not(:last-child){
-    margin-right:.5rem;
+    margin-right:1rem;
   }
 
   .list-inline-item{
