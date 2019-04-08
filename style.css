@@ -170,6 +170,9 @@ html {
       background-size: cover;        
   }
   
+  .skill{
+    display: inline-block;
+  }
 
     
 
