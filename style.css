@@ -180,7 +180,8 @@ html {
   }
   
   li{
-    text-align: match-parent;
+    text-align: match-parent,
+    -webkit-match-parent;
   }
 
 
@@ -195,8 +196,6 @@ html {
 
   
 
-
-  
 
 
   /* Media Queries
