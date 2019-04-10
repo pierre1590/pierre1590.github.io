@@ -32,7 +32,7 @@ html {
   }
   
 #music{
-  display: hidden;
+  display: none;
 }
 
   .grow {
