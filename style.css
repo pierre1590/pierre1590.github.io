@@ -202,11 +202,11 @@ html {
   @media (min-width: 900px) {
     .col-narrow {
       margin-top: 5%;
-      width: 20%;
+      width: 15%;
       float: left;
     }
     .col-wide {
-      width: 70%;
+      width: 60%;
       float: left;
       padding-left: 20px;
     }
@@ -219,6 +219,6 @@ html {
       text-align: center;
     }
     .profile-img {
-      width: 180px;
+      width: 200px;
     }
   }
