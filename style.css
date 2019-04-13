@@ -199,6 +199,7 @@ html {
   transform: scale(1.05);
   color: rgb(238, 120, 88);
   transition: all .2s ease-in-out;
+  cursor: pointer;
 
 }
 
