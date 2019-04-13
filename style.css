@@ -195,7 +195,11 @@ html {
     display: inline-block;
   }
 
+.list-inline-item:hover{
+  transform: scale(1.05);
+  color: #f41;
 
+}
 
   /* Media Queries
   -------------------------*/
