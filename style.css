@@ -193,14 +193,12 @@ html {
 
   .list-inline-item{
     display: inline-block;
+    transition: all .1s ease-in-out;
   }
 
 .list-inline-item:hover{
   transform: scale(1.2);
   color: rgb(250, 155, 128);
-  transition: all .2s ease-in-out;
- 
-
 }
 
   /* Media Queries
