@@ -202,7 +202,7 @@ html {
   color: rgb(235, 83, 42);
 }
 
- .list-inline-item .tooltiptext {
+ .tooltiptext {
   visibility: hidden;
   width: 120px;
   background-color: #555;
@@ -223,7 +223,7 @@ html {
   transition: opacity 0.3s;
 }
 
-.list-inline-item .tooltiptext::after {
+ .tooltiptext::after {
   content: "";
   position: absolute;
   top: 100%;
@@ -234,7 +234,7 @@ html {
   border-color: #555 transparent transparent transparent;
 }
 
-.list-inline-item:hover .tooltiptext {
+ .tooltiptext {
   visibility: visible;
   opacity: 1;
 }
