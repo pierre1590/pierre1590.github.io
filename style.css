@@ -206,7 +206,7 @@ ul li p{
   display:none;
 }
 
-i:hover + p{
+i:hover + ul li p{
   display:block;
 }
 
