@@ -201,7 +201,7 @@ html {
   color: rgb(235, 83, 42);
 }
 
-p{
+ul li p{
   display:none;
 }
 
