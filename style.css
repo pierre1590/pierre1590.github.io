@@ -201,7 +201,14 @@ html {
   color: rgb(235, 83, 42);
 }
 
+p{
+  padding: 10px;
+  display:none;
+}
 
+i:hover + p{
+  display:block;
+}
 
 
   /* Media Queries
