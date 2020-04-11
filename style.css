@@ -201,12 +201,12 @@ html {
   color: rgb(235, 83, 42);
 }
 
-ul li p{
+ul -> li-> p{
   font-size:20px;
   display:none;
 }
 
-i:hover + ul li p{
+i:hover + ul -> li -> p{
   display:block;
 }
 
