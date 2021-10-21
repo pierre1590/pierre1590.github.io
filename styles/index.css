@@ -10,6 +10,7 @@ img.profile-image{
 
 .card{
     margin:15px 35%;
+    border-radius:20%;
 }
 
 .card-title{
@@ -24,17 +25,40 @@ h2.education{
 }
 
 .container-education{
-    background-color:#017;
+    display:flex;
+    justify-content:center;
+    align-items:center;
     text-align:center;
-    border-radius:35px;
-    box-shadow: 4px 3px #ff7;
-    width:600px;
-    margin: 4% 30%;
+    flex-direction:row;
+    gap:40px;
 }
 
-.col{
-    color:#fff;
-    font-size:25px;
-    font-weight:bold;
+.card-education{
+    flex:1;
+    font-size:20px;
+    color: #fff;
+    background-color: #f03;
+    border-radius:10%;
 }
 
+.card-education:hover{
+    transform: scaleX(1);
+}
+
+.card-image{
+    height:200px;
+    width:200px;
+    border-radius:50%;
+}
+
+
+footer{
+    background-color: #f01;
+    font-size:20px;
+    border-radius:25px;
+    box-shadow:5px 3px #00a;
+}
+
+footer>a{
+    text-decoration-style:none;
+}

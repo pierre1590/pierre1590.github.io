@@ -9,3 +9,14 @@ h1.title{
     color: #fff;
     text-align:center;
 }
+
+footer{
+    background-color: #f01;
+    font-size:20px;
+    border-radius:25px;
+    box-shadow:5px 3px #00a;
+}
+
+footer>a{
+    text-decoration-style:none;
+}
