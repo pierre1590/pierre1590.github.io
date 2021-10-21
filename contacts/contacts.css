@@ -3,6 +3,11 @@ body{
     background-repeat: no-repeat;
     background-size:cover;
 }
+.card{
+    width:500px;
+    margin: 10% 40%;
+    border-radius:5%;
+}
 
 footer{
     background-color: #f01;
