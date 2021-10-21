@@ -33,7 +33,31 @@ h2.education{
     gap:40px;
 }
 
-.card-education{
+.card-education-one{
+    flex:1;
+    font-size:20px;
+    color: #fff;
+    background-color: #f03;
+    border-radius:10%;
+}
+
+.card-education-two{
+    flex:1;
+    font-size:20px;
+    color: #fff;
+    background-color: #f03;
+    border-radius:10%;
+}
+
+.card-education-three{
+    flex:1;
+    font-size:20px;
+    color: #fff;
+    background-color: #f03;
+    border-radius:10%;
+}
+
+.card-education-four{
     flex:1;
     font-size:20px;
     color: #fff;
