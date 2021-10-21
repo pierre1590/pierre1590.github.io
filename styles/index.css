@@ -9,7 +9,7 @@ img.profile-image{
 }
 
 .card{
-    margin:15px 35%;
+    margin:15px 40%;
     border-radius:20%;
 }
 
@@ -20,7 +20,7 @@ img.profile-image{
 }
 
 h2.education{
-    margin: 3% 20%;
+    margin: 5% 20%;
     color: #ff3;
     background-color: #f11;
     text-align:center;
