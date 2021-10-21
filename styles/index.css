@@ -41,9 +41,7 @@ h2.education{
     border-radius:10%;
 }
 
-.card-education:hover{
-    transform: scaleX(1);
-}
+
 
 .card-image{
     height:200px;
