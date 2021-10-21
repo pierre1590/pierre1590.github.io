@@ -9,6 +9,11 @@ body{
     border-radius:5%;
 }
 
+.btn-success{
+    border-radius:20px;
+    box-shadow: 3px 3px #001;
+}
+
 footer{
     background-color: #f01;
     font-size:20px;
