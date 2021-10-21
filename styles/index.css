@@ -22,6 +22,9 @@ img.profile-image{
 h2.education{
     margin: 3% 20%;
     color: #ff3;
+    background-color: #f11;
+    text-align:center;
+    border-radius:50%;
 }
 
 .container-education{
@@ -72,6 +75,7 @@ h2.education{
     height:200px;
     width:200px;
     border-radius:50%;
+    cursor:pointer;
 }
 
 
