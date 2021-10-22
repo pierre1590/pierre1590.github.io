@@ -4,11 +4,20 @@ body{
     background-size:cover;
 }
 
+header{
+    color:#fff;
+    font-size:35px;
+    text-align:center;
+    font-style:italic;
+    background-color: #f03;
+}
+
 footer{
     background-color: #f01;
     font-size:20px;
     border-radius:25px;
     box-shadow:5px 3px #00a;
+   
 }
 
 footer>a{
