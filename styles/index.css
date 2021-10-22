@@ -103,4 +103,9 @@ footer>a{
     .container-education{
     flex-direction:column;
     }
+
+    .card-education-one,.card-education-two,
+    .card-education-three,.card-education-four{
+        width:350px;
+    }
 }
