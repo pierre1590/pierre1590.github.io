@@ -101,26 +101,7 @@ footer>a{
 }
 
 
-@media  screen and  (max-width:360px){
-    .container-education{
-        display:flex;
-        justify-content:center;
-        align-items:center;
-        text-align:center;
-        flex-direction:column;
-    }
-    
-    .card{
-        margin:15px 5%;
-        border-radius:20%;
-    }
-    
 
-    .card-education-one,.card-education-two,
-    .card-education-three,.card-education-four{
-        width:350px;
-    }
-}
 
 @media  screen and  (max-width:768px){
     .container-education{
@@ -132,7 +113,7 @@ footer>a{
     }
     
     .card{
-        margin:15px 15%;
+        margin:15px 5%;
         border-radius:20%;
     }
     

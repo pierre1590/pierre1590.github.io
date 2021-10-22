@@ -38,7 +38,7 @@ footer>a{
     text-decoration-style:none;
 }
 
-@media screen and (max-width:350px) {
+@media screen and (max-width:768px) {
     .card{
         width:300px;
         margin: 10% 5%;
