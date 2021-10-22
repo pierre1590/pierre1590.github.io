@@ -4,12 +4,20 @@ body{
     background-size:cover;
 }
 
+header{
+    color:#fff;
+    font-size:35px;
+    text-align:center;
+    font-style:italic;
+    background-color: #f03;
+}
+
 img.profile-image{
     border-radius:50%;
 }
 
 .card{
-    margin:15px 40%;
+    margin:15px 44%;
     border-radius:20%;
 }
 
