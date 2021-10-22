@@ -101,7 +101,11 @@ footer>a{
 
 @media  screen and  (max-width:768px){
     .container-education{
-    flex-direction:column;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        text-align:center;
+        flex-direction:column;
     }
 
     .card-education-one,.card-education-two,
