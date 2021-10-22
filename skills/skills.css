@@ -10,6 +10,8 @@ header{
     text-align:center;
     font-style:italic;
     background-color: #f03;
+    border-bottom-left-radius:30px;
+    border-bottom-right-radius:30px;
 }
 
 h1.title{

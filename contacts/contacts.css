@@ -10,6 +10,9 @@ header{
     text-align:center;
     font-style:italic;
     background-color: #f03;
+    border-bottom-left-radius:30px;
+    border-bottom-right-radius:30px;
+    
 }
 
 .card{
@@ -33,4 +36,12 @@ footer{
 
 footer>a{
     text-decoration-style:none;
+}
+
+@media screen and (max-width:350px) {
+    .card{
+        width:300px;
+        margin: 10% 5%;
+        border-radius:5%;
+    }
 }
