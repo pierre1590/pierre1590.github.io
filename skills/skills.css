@@ -20,6 +20,58 @@ h1.title{
     text-align:center;
 }
 
+.container-skills{
+    margin-top: 50px;
+    display: grid;
+    grid-template:2fr 2fr 2fr / 1fr 1fr 1fr;
+    column-gap: 3rem;
+    row-gap: 3rem;
+   
+    
+}
+
+.item{
+    background-color: none;
+    font-size: 22px;
+    color:#fff;
+    font-style: italic;
+    font-weight: 750;
+    border-radius: 99999999999px;
+    width:auto;
+    height: auto;
+    text-align: center;
+    border: 1px solid #f04;
+    box-shadow: 1px 2px #1bf;
+}
+
+.fab{
+    font-size: 55px;
+}
+
+.fa-html5{
+    color: orangered;
+}
+
+.fa-css3-alt{
+    color:blue;
+}
+
+.fa-js-square{
+    color:gold;
+}
+
+.fa-php{
+    color:slateblue;
+}
+
+.mysql{
+    height: 70px;
+}
+
+.fa-node-js{
+    color:lime;
+}
+
 footer{
     background-color: #f01;
     font-size:20px;
@@ -29,4 +81,13 @@ footer{
 
 footer>a{
     text-decoration-style:none;
+}
+
+
+
+
+@media  screen and (max-width:768px) {
+    .item{
+        font-size: 15px;
+    }
 }
