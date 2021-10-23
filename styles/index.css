@@ -42,20 +42,24 @@ img.profile-image{
 }
 
 .container-education{
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    text-align:center;
-    flex-direction:row;
-    gap:40px;
+    display:grid;
+    grid-template-columns:35rem 35rem 35rem 35rem;
+    column-gap: 2rem;
+    row-gap: 2rem;
+    margin: 0 60px;
+   
 }
 
 .card-education-one{
-    flex:1;
     font-size:20px;
     color: #fff;
     background-color: #f03;
     border-radius:10%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 350px;
+    height: 350px;
 }
 
 .card-education-one:hover{
@@ -63,11 +67,14 @@ img.profile-image{
 }
 
 .card-education-two{
-    flex:1;
     font-size:20px;
     color: #fff;
     background-color: #f03;
     border-radius:10%;
+    
+    text-align: center;
+    width: 350px;
+    height: 350px;
 }
 
 .card-education-two:hover{
@@ -75,17 +82,16 @@ img.profile-image{
 }
 
 .card-education-three{
-    flex:1;
     font-size:20px;
     color: #fff;
     background-color: #f03;
     border-radius:10%;
     transition: transform 1s linear;
     transform-style: preserve-3d;
-    width:200px;
-    height: 330px;
+    text-align: center;
     position: relative;
-
+    width: 350px;
+    height: 350px;
 }
 
 .qrcode{
@@ -105,11 +111,9 @@ img.profile-image{
 
 .side{
     backface-visibility: hidden;
+    top: 2px;
+    left:60px;
     position: absolute;
-    height: inherit;
-    width: inherit;
-    top: 0;
-    left: 35%;
 }
 
 
@@ -118,11 +122,14 @@ img.profile-image{
 }
 
 .card-education-four{
-    flex:1;
     font-size:20px;
     color: #fff;
     background-color: #f03;
     border-radius:10%;
+   
+    text-align: center;
+    width: 350px;
+    height: 350px;
 }
 
 .card-education-four:hover{
@@ -156,10 +163,13 @@ footer>a{
 @media  screen and  (max-width:768px){
     .container-education{
         display:flex;
-        justify-content:center;
-        align-items:center;
-        text-align:center;
-        flex-direction:column;
+        flex-direction: column;
+        margin: 10px 10px;
+    }
+    .card-education-one,.card-education-two,
+    .card-education-three,.card-education-four{
+        width: 250px;
+    height: 300px;
     }
     
     .card{
@@ -168,8 +178,26 @@ footer>a{
     }
     
 
-    .card-education-one,.card-education-two,
-    .card-education-three,.card-education-four{
-        width:350px;
+
+    .qrcode{
+        width: 150px;
+        height: 150px;
+        border-radius: 15%;
+    }
+    
+    .flipped{
+        transform: rotateY(180deg);
+    }
+    
+    .front{
+        transform:rotateY(180deg);
+    }
+    
+    
+    .side{
+        backface-visibility: hidden;
+        position: absolute;
+        top: 0;
+        left: 40px;
     }
 }
