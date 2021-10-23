@@ -54,12 +54,20 @@ img.profile-image{
     border-radius:10%;
 }
 
+.card-education-one:hover{
+    transform:scale(1.1);
+}
+
 .card-education-two{
     flex:1;
     font-size:20px;
     color: #fff;
     background-color: #f03;
     border-radius:10%;
+}
+
+.card-education-two:hover{
+    transform:scale(1.1);
 }
 
 .card-education-three{
@@ -70,6 +78,10 @@ img.profile-image{
     border-radius:10%;
 }
 
+.card-education-three:hover{
+    transform:scale(1.1);
+}
+
 .card-education-four{
     flex:1;
     font-size:20px;
@@ -78,6 +90,9 @@ img.profile-image{
     border-radius:10%;
 }
 
+.card-education-four:hover{
+    transform:scale(1.1);
+}
 
 
 .card-image{
