@@ -80,7 +80,38 @@ img.profile-image{
     color: #fff;
     background-color: #f03;
     border-radius:10%;
+    transition: transform 1s linear;
+    transform-style: preserve-3d;
+    width:200px;
+    height: 330px;
+    position: relative;
+
 }
+
+.qrcode{
+    width: 150px;
+    height: 150px;
+    border-radius: 15%;
+}
+
+.flipped{
+    transform: rotateY(180deg);
+}
+
+.front{
+    transform:rotateY(180deg);
+}
+
+
+.side{
+    backface-visibility: hidden;
+    position: absolute;
+    height: inherit;
+    width: inherit;
+    top: 0;
+    left: 35%;
+}
+
 
 .card-education-three:hover{
     transform:scale(1.1);
