@@ -15,18 +15,22 @@ header{
 }
 
 img.profile-image{
-    border-radius:50%;
+    width:150px;
+    height: 190px;
+    border-radius: 80%;
+    margin:2px 25%;
 }
 
 .card{
     margin:15px 44%;
-    border-radius:20%;
+    border-radius:10%
 }
 
 .card-title{
     text-align:center;
     color:#f11;
     font-size:25px;
+    font-style: italic;
 }
 
 .education{
